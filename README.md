@@ -1,1 +1,1 @@
-# azure-devops
+# Project to test CI/CD on Azure
