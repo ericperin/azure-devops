@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -14,7 +9,7 @@ namespace Example.Web
     public class Startup
     {
         public Startup(IConfiguration configuration)
-        {
+        {//git: 0ec92ae3373054377aca70364882bb18c6a9dd2b
             Configuration = configuration;
         }
 
